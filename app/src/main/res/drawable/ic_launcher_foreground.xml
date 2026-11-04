@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A counter button: gold ring, plus, and three reels. Drawn on the 108dp
+     adaptive grid; the visible safe zone is the middle 72dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#E8B33C"
+        android:pathData="M54,50 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0" />
+    <path
+        android:fillColor="#12151C"
+        android:pathData="M50,34 h8 v12 h12 v8 h-12 v12 h-8 v-12 h-12 v-8 h12 z" />
+    <path
+        android:fillColor="#7FD7CB"
+        android:pathData="M38,84 h6 v6 h-6 z M51,84 h6 v6 h-6 z M64,84 h6 v6 h-6 z" />
+</vector>

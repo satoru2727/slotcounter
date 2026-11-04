@@ -1,0 +1,1 @@
+Count pachislot roles with the volume buttons, even with the screen off.

@@ -1,0 +1,13 @@
+A focused, fully offline counter for pachislot small roles (koyaku).
+
+• Count with the volume keys — assign a role to volume up and down, count without looking at the screen.
+• Double-click the same key to undo the last count.
+• Works with the screen off (foreground service + MediaSession).
+• Haptic feedback: one short tick per count, a double tick for undo.
+• Enter the game count to see the hit rate as 1/6.4 and so on.
+• Editable counters with colours, key bindings and ordering; Juggler/Hana-Hana/AT presets.
+• Session history with counts and probabilities.
+
+No INTERNET permission, no ads, no analytics, no backup. All data stays on the device.
+
+License: GPL-3.0

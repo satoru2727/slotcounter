@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">子役カウンター</string>
+
+    <!-- Start screen -->
+    <string name="start_title">新しい実戦</string>
+    <string name="machine_name">機種名</string>
+    <string name="machine_hint">例: マイジャグラーV</string>
+    <string name="preset_label">カウンター構成</string>
+    <string name="start_button">カウント開始</string>
+    <string name="recent_machines">最近の機種</string>
+    <string name="notification_rationale">通知を許可すると、画面オフ中も「カウント中」の通知が残り、誤って止められにくくなります。</string>
+    <string name="notification_grant">通知を許可</string>
+
+    <!-- Counting screen -->
+    <string name="elapsed">経過</string>
+    <string name="games_label">ゲーム数</string>
+    <string name="games_unit">G</string>
+    <string name="edit_games_title">ゲーム数を入力</string>
+    <string name="games_hint">データランプのゲーム数を入力</string>
+    <string name="plus_ten">+10</string>
+    <string name="plus_one">+1</string>
+    <string name="minus_one">−1</string>
+    <string name="minus_ten">−10</string>
+    <string name="no_probability">—</string>
+    <string name="probability_label">確率</string>
+    <string name="games_hint_probability">ゲーム数を入れると確率が表示されます</string>
+    <string name="undo">取り消し</string>
+    <string name="undo_with_name">取り消し（%1$s）</string>
+    <string name="edit_counters">カウンター編集</string>
+    <string name="end_session">実戦終了</string>
+    <string name="end_title">実戦を終了しますか？</string>
+    <string name="end_message">履歴に保存されます。カウントは終了後も確認できます。</string>
+    <string name="end_confirm">終了する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="volume_hint">音量▲/▼でカウント・ダブルクリックで取り消し</string>
+    <string name="double_click_undo">ダブルクリックで取り消し</string>
+    <string name="duration_hours">%1$d時間%2$d分</string>
+    <string name="duration_minutes">%1$d分</string>
+    <string name="volume_hint_unbound">音量キーが未割当です（カードをタップしてカウント）</string>
+    <string name="screen_off_tip">画面を消しても音量キーでカウントできます</string>
+    <string name="counts_suffix">%1$d回</string>
+    <string name="no_counters">カウンターがありません</string>
+
+    <!-- Counter editing -->
+    <string name="counter_edit_title">カウンター編集</string>
+    <string name="add_counter">カウンターを追加</string>
+    <string name="edit_counter_title">カウンターを編集</string>
+    <string name="counter_name">名前</string>
+    <string name="counter_name_hint">例: ブドウ</string>
+    <string name="key_binding">音量キー</string>
+    <string name="key_none">なし</string>
+    <string name="key_up">音量▲</string>
+    <string name="key_down">音量▼</string>
+    <string name="key_hint">同じキーに割り当てられるのは1つだけです</string>
+    <string name="color">色</string>
+    <string name="move_up">上へ</string>
+    <string name="move_down">下へ</string>
+    <string name="delete_counter_title">カウンターを削除しますか？</string>
+    <string name="delete_counter_message">「%1$s」のカウント（%2$d回）も削除されます。</string>
+
+    <!-- History -->
+    <string name="history">履歴</string>
+    <string name="history_empty">まだ履歴がありません</string>
+    <string name="history_empty_hint">実戦を終了すると、ここにカウントと確率が残ります。</string>
+    <string name="detail_title">実戦詳細</string>
+    <string name="started_at">開始</string>
+    <string name="ended_at">終了</string>
+    <string name="total_counts">合計カウント</string>
+    <string name="delete_session_title">この履歴を削除しますか？</string>
+    <string name="delete_session_message">カウントを含むすべての記録が消えます。元に戻せません。</string>
+    <string name="session_saved">履歴に保存しました</string>
+
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="settings_haptics">触覚フィードバック</string>
+    <string name="settings_haptics_desc">カウント時に短く振動します。</string>
+    <string name="settings_silence">画面オフ時の無音再生</string>
+    <string name="settings_silence_desc">画面オフ中に音量キーを取りこぼさないための対策。電池消耗が気になる場合はオフにしてください。</string>
+    <string name="settings_notification">通知</string>
+    <string name="notification_status_on">許可済み</string>
+    <string name="notification_status_off">未許可</string>
+    <string name="open_notification_settings">通知設定を開く</string>
+    <string name="settings_general">カウント</string>
+    <string name="settings_notifications_section">通知</string>
+    <string name="about_section">アプリ情報</string>
+    <string name="privacy_note">完全オフライン。INTERNET権限はありません。データは端末内にだけ保存されます。</string>
+    <string name="source_code">ソースコード（GitHub）</string>
+    <string name="version_label">バージョン %1$s</string>
+    <string name="license_label">ライセンス: GPL-3.0</string>
+    <string name="back">戻る</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">カウント中</string>
+    <string name="notification_channel_desc">画面オフ中も音量キーでカウントするための常駐通知</string>
+    <string name="notification_title">%1$s をカウント中</string>
+    <string name="notification_empty">音量キーでカウントできます</string>
+    <string name="notification_counter">%1$s %2$d回</string>
+    <string name="notification_games">%1$dG</string>
+    <string name="notification_undo">取り消し</string>
+</resources>
