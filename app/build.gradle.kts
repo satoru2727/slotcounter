@@ -13,8 +13,8 @@ android {
         applicationId = "io.github.satoru2727.slotcounter"
         minSdk = 29
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.1.1"
         // The app is Japanese-only by design (the UI is for Japanese halls).
     }
 

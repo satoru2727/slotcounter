@@ -10,4 +10,4 @@ A focused, fully offline counter for pachislot small roles (koyaku).
 
 No INTERNET permission, no ads, no analytics, no backup. All data stays on the device.
 
-License: GPL-3.0
+License: Unlicense (public domain)
