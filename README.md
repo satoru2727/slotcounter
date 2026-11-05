@@ -3,6 +3,10 @@
 パチスロの子役カウントに特化した、完全オフラインの Android アプリです。
 音量キーでカウントでき、画面を消したままでも使えます。
 
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue?style=for-the-badge)](LICENSE)
+[![Anti-Copyright](https://img.shields.io/badge/anti--copyright-black?style=for-the-badge)](https://unlicense.org/)
+[![Free Palestine](https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_FREE_PALESTINE-techforpalestine.org-000?labelColor=grey&color=D83838&style=for-the-badge)](https://techforpalestine.org/learn-more)
+
 ## 機能
 
 - **音量キーでカウント** — 音量▲/▼に好きな子役を割り当てて、画面を見ずにカウント
@@ -76,14 +80,6 @@ export JAVA_HOME=$HOME/.local/share/mise/installs/java/temurin-21.0.13+9.0.LTS
 カウント・履歴・設定は端末内の Room データベースと DataStore にだけ保存されます。
 外部送信は一切ありません。アンインストールすると消えます（v1 ではエクスポート未実装）。
 
-## パレスチナ連帯
-
-このプロジェクトは、パレスチナの人々と、その自由・尊厳・自己決定権を求める闘争に連帯します。
-占領、アパルトヘイト、ジェノサイドに反対します。Free Palestine.
-
 ## ライセンス
 
-このプロジェクトは [Unlicense](LICENSE) により **パブリックドメイン** に置かれています。
-
-私は、著作権が利用・改変・配布を制限する正当な根拠だとは考えていません。
-許可もクレジットも不要です。自由に使い、改変し、配布し、売ってください。
+[Unlicense](LICENSE)（パブリックドメイン）。許可もクレジットも不要です。
